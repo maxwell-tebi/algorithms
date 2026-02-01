@@ -1,4 +1,16 @@
-#The wrong solution and what I thought would work
+''' 
+This is an algorithm challenge from LeetCode.
+
+Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to target.
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+You can return the answer in any order.
+
+'''
+
+
+#The wrong solution I initially thought would work
 def solution(nums, target):
   for index1 in nums:
     for index2 in nums:
