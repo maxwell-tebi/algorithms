@@ -11,7 +11,7 @@ In a typical transaction scenario, you might be asking which two actions explain
 The current solution works by brute force. There is an optimized solution that handles this without brute force.
 
 
-## Day 2 Challenge
+# Day 2 Challenge
 Given an integer array nums, find the subarray with the largest sum, and return its sum.
 
 ## Mathematical context and real-world use cases
