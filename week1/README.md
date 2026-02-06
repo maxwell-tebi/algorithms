@@ -65,3 +65,7 @@ Note: Since nums is circular, moving past the last element wraps around to the b
 
 ##  The following systems make use of this simple pattern
 CPUs sharing time across processes, Load balancing in distributed systems such as servers
+
+# Day 6
+This is a problem from GeeksForGeeks
+You are given an array arr[] of size n - 1 that contains distinct integers in the range from 1 to n (inclusive). This array represents a permutation of the integers from 1 to n with one element missing. Your task is to identify and return the missing element.
