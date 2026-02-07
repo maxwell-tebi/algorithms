@@ -10,4 +10,4 @@ def leaders(self, arr):
         
     leaders.reverse()
         
-        return leaders
+    return leaders
