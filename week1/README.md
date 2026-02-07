@@ -69,3 +69,6 @@ CPUs sharing time across processes, Load balancing in distributed systems such a
 # Day 6
 This is a problem from GeeksForGeeks
 You are given an array arr[] of size n - 1 that contains distinct integers in the range from 1 to n (inclusive). This array represents a permutation of the integers from 1 to n with one element missing. Your task is to identify and return the missing element.
+
+# Day 7
+You are given an array arr of positive integers. Your task is to find all the leaders in the array. An element is considered a leader if it is greater than or equal to all elements to its right. The rightmost element is always a leader.
