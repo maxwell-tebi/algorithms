@@ -8,3 +8,6 @@ class Solution:
             return arr.index(x)
         else:
             return -1
+
+
+"To reverse 
