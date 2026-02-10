@@ -10,4 +10,4 @@ class Solution:
             return -1
 
 
-"To reverse a given
+"To reverse a given string
