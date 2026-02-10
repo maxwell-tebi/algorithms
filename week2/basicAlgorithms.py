@@ -11,3 +11,10 @@ class Solution:
 
 
 "To reverse a given string"
+class Solution:
+     def reverseString(self, s: str) -> str:
+        reversed_string = ""
+        for i in reversed(s):
+            reversed_string += i
+            
+        return reversed_string
