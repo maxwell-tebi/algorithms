@@ -18,3 +18,24 @@ class Solution:
             reversed_string += i
             
         return reversed_string
+
+
+#
+
+class Solution:
+    #Function to check if a is a subset of b.
+    def isSubset(self, a, b):
+        
+        from collections import Counter
+        count_a = Counter(a)
+        
+        for x in b:
+            if count_a[x] == 0:
+                return False
+            count_a[x] -= 1
+        
+        return True
+    
+    
+    
+
