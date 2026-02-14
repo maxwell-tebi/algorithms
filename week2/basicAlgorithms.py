@@ -20,7 +20,7 @@ class Solution:
         return reversed_string
 
 
-#
+#Given two arrays a[] and b[], your task is to determine whether b[] is a subset of a[].
 
 class Solution:
     #Function to check if a is a subset of b.
