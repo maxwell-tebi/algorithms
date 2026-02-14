@@ -26,7 +26,7 @@ class Solution:
     #Function to check if a is a subset of b.
     def isSubset(self, a, b):
         
-        from collections import Counter
+        
         count_a = Counter(a)
         
         for x in b:
