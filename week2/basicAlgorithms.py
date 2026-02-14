@@ -25,10 +25,7 @@ from collections import Counter
 class Solution:
     #Function to check if a is a subset of b.
     def isSubset(self, a, b):
-        
-        
         count_a = Counter(a)
-        
         for x in b:
             if count_a[x] == 0:
                 return False
