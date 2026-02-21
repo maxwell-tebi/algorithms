@@ -22,7 +22,6 @@ class Solution:
             print(n, end=" ")
 #Given a number n, return an array containing the first n Fibonacci numbers. Note: The first two numbers of the series are 0 and 1.
 class Solution:
-    #Function to return list containing first n fibonacci numbers.
     def fibonacciNumbers(self,n):
         sequence = [0,1]
         
