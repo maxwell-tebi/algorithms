@@ -21,3 +21,16 @@ class Solution:
             self.printNos(n-1)
             print(n, end=" ")
 #Given a number n, return an array containing the first n Fibonacci numbers. Note: The first two numbers of the series are 0 and 1.
+class Solution:
+    #Function to return list containing first n fibonacci numbers.
+    def fibonacciNumbers(self,n):
+        sequence = [0,1]
+        
+        if n == 1:
+            sequence = [0]
+        elif n != 2:
+            while len(sequence)<n:
+                sequence.append(sequence[-1]+sequence[-2])
+                
+        
+        return sequence
