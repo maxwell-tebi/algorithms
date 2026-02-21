@@ -20,3 +20,4 @@ class Solution:
         if n>0:
             self.printNos(n-1)
             print(n, end=" ")
+#
