@@ -41,5 +41,4 @@ class Solution:
         for i, j in enumerate(arr, start=1):
             if i == j:
                 answer.append(i)
-        
         return answer
