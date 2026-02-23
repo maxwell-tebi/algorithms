@@ -12,3 +12,10 @@ class Solution:
         LCM = abs(a * b) // GCD  # Use integer division
         
         return [LCM, GCD]
+
+#Other optimized approaches
+from math import gcd, lcm
+
+class Solution:
+    def lcmAndGcd(self, a: int, b: int) -> List[int]:
+        return [lcm(a, b), gcd(a, b)]
