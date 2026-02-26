@@ -19,3 +19,5 @@ from math import gcd, lcm
 class Solution:
     def lcmAndGcd(self, a: int, b: int) -> List[int]:
         return [lcm(a, b), gcd(a, b)]
+
+#
